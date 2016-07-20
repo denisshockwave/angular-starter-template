@@ -1,0 +1,35 @@
+
+   <div class="panel box-v6 col-md-5" style="margin-left:30%;" >
+  <div class="panel-heading">
+                   <img class="pull-left"  width="30" src="assets/img/avatar.jpg" class="img-circle avatar" alt="user name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"/><h3 style="margin-top:3px;margin-left:5px;">  Admin login</h3></div>
+
+                    <div class="panel-body">
+                      <div class="responsive-table">
+  <form class="cmxform" id="signupForm" name="loginForm">
+                        <div class="col-md-12">
+
+
+                            <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                              <input type="text" class="form-text"  name="username" ng-model="login.username" required>
+                              <span class="bar"></span>
+                              <label>username</label>
+                            </div>
+
+
+                            <div class="form-group form-animate-text" style="margin-top:40px !important;">
+                              <input type="password" class="form-text"  name="password" ng-model="login.password" required>
+                              <span class="bar"></span>
+                              <label>Password</label>
+                            </div>
+
+                               <button class="submit btn" style="background-color:#009688;color:#fff;border-color:#009688" type="submit" ng-click="doLogin(login)" data-ng-disabled="loginForm.$invalid">
+
+              login</button>
+
+              </small>
+
+                    </div>
+
+                      </form>
+            </div></div>
+            </div>
